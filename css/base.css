@@ -1,0 +1,48 @@
+:root {
+    --color-main: #214265;
+    --color-highlight: #ffc800;
+    --color-text: #6D5E5E;
+    --color-icon: #81ADDE;
+    --color-green: #13A05D;
+    --color-button-main: #5194DB;
+
+    --bg-1: #f0f2f5;
+
+    --font: "Poppins", sans-serif;;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    font-family: var(--font);
+    box-sizing: border-box;
+}
+
+.button {
+    background-color: #967a7a;
+    font-size: 15px;
+    font-weight: 400;
+    width: 200px;
+    height: 50px;
+    padding: 10px 40px;
+    color: #fff;
+    border-radius: 5px;  
+    text-decoration: none;
+}
+
+.button-main {
+    background-color: var(--color-button-main);
+}
+
+.button-main:hover {
+    background-color: #4687CE;
+    text-decoration: none;
+    color: #fff;
+}
+
+.fix-box {
+    margin-bottom: 30px;
+}
